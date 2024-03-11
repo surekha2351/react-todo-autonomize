@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  color: slateblue;
+  border: 2px solid slateblue;
+  border-radius: 20px;
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(4, 32, 56);
+  margin: auto; /* Center the entire app horizontally */
+  padding: 20px; /* Add padding for better appearance */
+  margin-top: 20px;
+}
+
+.todo-list {
+  margin-top: 20px;
+}
+
+.todo-list input {
+  padding: 5px;
+  width: 300px;
+  margin-right: 10px;
+}
+
+.todo-list button.delete {
+  margin-left: 10px;
+  border: none; /* Remove border */
+  font-size: 20px; /* Adjust font size */
+  cursor: pointer;
+}
+
+.counts {
+  margin-top: 20px;
+}
+
+.counts div {
+  margin-bottom: 5px;
+}
+
+.input1 {
+  border: none !important;
+  border-radius: 10px !important;
+  margin: 20px !important;
+}
